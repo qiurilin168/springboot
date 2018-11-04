@@ -20,7 +20,7 @@ public class UserController {
     @RequestMapping("test")
     @ResponseBody
     public String  test(){
-        return "test";
+        return "Test";
     }
 
     @RequestMapping("user")
